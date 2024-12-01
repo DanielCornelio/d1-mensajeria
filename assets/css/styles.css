@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+:root{
+    --white:#FFFFFF;
+    --platinum: #E8EBE4;
+    --gray: #BEC1BB;
+    --blueBell: #A491D2;
+    --soap:#CDC3E6;
+    --paleLavander: #D4DCFF;
+    --darkJungle:#1B1F21;
+    --outerSpace:#444749;
+    --oldSilver:#828485;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans';
+    
+}
+.content{
+    display: flex;
+}
+.aside{
+    width: 350px;
+    height: 100vh;
+
+}
+.contactos{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.contacto__content{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+.contacto__item{
+    padding: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--gray);
+}
+.contacto__spacing{
+    padding: 60px 0;
+}
+.contacto__btn{
+    padding: 18px;
+    background-color: var(--blueBell);
+    color: var(--white);
+    width: 200px;
+    font-size: 18px;
+    font-weight: 500;
+    border:0;
+    cursor: pointer;
+}
+.contacto__btn:hover{
+    background-color: var(--soap);
+}
+.profile{
+    display: flex;
+    justify-content: space-between;
+    gap:10px;
+}
+.profile__img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.profile__name{
+    font-weight: 600;
+    font-size: 20px;
+}
+.profile__status{
+    color: var(--oldSilver);
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.active{
+    color: lightgreen;
+}
+.actions{
+    display: flex;
+    font-size: 24px;
+    gap: 15px;
+}
+.actions a{
+    text-decoration: none;
+    color: var(--oldSilver);
+
+}
+.main{
+    width: calc(100vw - 350px);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main__img{
+    width: 300px;
+    height: 300px;
+}
+.main__title{
+    font-family: 'Roboto';
+    font-size: 60px;
+    font-weight: 400;
+    word-spacing: 12px;
+    margin: 20px 0 0;
+}
+.main__subtitle{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 400;
+}
